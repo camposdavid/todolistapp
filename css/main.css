@@ -1,0 +1,209 @@
+body {
+  font-family: Roboto;
+  background: -webkit-linear-gradient(90deg, #1e3c72 0%, #2a5298 100%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #1e3c72 0%, #2a5298 100%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #1e3c72 0%, #2a5298 100%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #1e3c72 0%, #2a5298 100%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #1e3c72 0%, #2a5298 100%); /* W3C */
+}
+
+/*background-image: linear-gradient(to right, #243949 0%, #517fa4 100%); */
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+h1 {
+  background: #2980b9;
+  color: white;
+  margin: 0;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.fa-plus {
+  float: right;
+}
+
+
+
+
+li {
+  background: #fff;
+  height: 40px;
+  line-height: 40px;
+  color: #666;
+}
+
+li:nth-child(2n){
+  background: #f7f7f7;
+}
+
+span {
+  background: #e74c3c;
+  height: 40px;
+  margin-right: 20px;
+  text-align: center;
+  color: white;
+  width: 0;
+  display: inline-block;
+  transition: 0.2s linear;
+  opacity: 0;
+}
+
+li:hover span {
+  width: 40px;
+  opacity: 1.0;
+}
+
+input {
+  font-size: 18px;
+  color: #2980b9;
+  background-color: #f7f7f7;
+  width: 100%;
+  padding: 13px 13px 13px 20px;
+  box-sizing: border-box;
+  border: 3px solid rgba(0,0,0,0);
+}
+
+input:focus{
+  background: #fff;
+  border: 3px solid #2980b9;
+  outline: none;
+}
+
+#container {
+  width: 360px;
+  margin: 100px auto;
+  background: #f7f7f7;
+  box-shadow: 0 0 3px rgba(0,0,0, 0.1);
+}
+
+.completed {
+  color: gray;
+  text-decoration: line-through;
+}
+
+
+ html,
+        body {
+            height: 100%;
+        }
+              
+      
+        
+       
+        
+        @media only screen and (max-width: 768px) {
+            .navbar {
+                background-color: #4285F4;
+            }
+        }
+        /* Carousel*/
+        
+        .carousel {
+            height: 50%;
+        }
+        
+        @media (max-width: 776px) {
+            .carousel {
+                height: 100%;
+            }
+        }
+        
+        .carousel-item,
+        .active {
+            height: 100%;
+        }
+        
+        .carousel-inner {
+            height: 100%;
+        }
+        
+        .carousel-item:nth-child(1) {
+            background-image: url("../img/chaos-2.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            opacity: 0.4;
+        }
+        
+        .carousel-item:nth-child(2) {
+            background-image: url("../img/calm-1.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        
+        /*Caption*/
+        
+        .flex-center {
+            color: #fff;
+        }
+
+h1.no-back {
+  background: none;
+  font-size: 50px;
+  font-family: 'Fauna One', serif;
+  background-color: ;
+  color: black;
+  z-index: 50;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 360px;
+}
+
+h1.no-back.initial {
+  background: none;
+  font-size: 50px;
+  font-family: 'Fauna One', serif;
+  background-color: white;
+  color: black;
+  z-index: 50;
+  font-weight: 700;
+  line-height: 1; 
+  margin: 0;
+}
+
+h1 {
+ font-family: 'Fauna One', serif; 
+}
+
+li, input {
+  font-family: 'Playfair Display', serif;
+}
+
+
+.main-header {
+  -webkit-animation-duration: 5s;
+  -webkit-animation-delay: .1s;
+  /*-webkit-animation-iteration-count: infinite;*/
+
+  -moz-animation-duration: 5s;
+  -moz-animation-delay: .1s;
+  /*-moz-animation-iteration-count: infinite;*/
+
+  -o-animation-duration: 5s;
+  -o-animation-delay: .1s;
+  /*-o-animation-iteration-count: infinite;*/
+}
+
+.main-roller {
+  -webkit-animation-duration: 5s;
+  -webkit-animation-delay: .1s;
+  /*-webkit-animation-iteration-count: infinite;*/
+
+  -moz-animation-duration: 5s;
+  -moz-animation-delay: .1s;
+  /*-moz-animation-iteration-count: infinite;*/
+
+  -o-animation-duration: 5s;
+  -o-animation-delay: .1s;
+  /*-o-animation-iteration-count: infinite;*/
+}
+
+
